@@ -1,11 +1,11 @@
-import styled from 'styled-components'
-import backGround from '../../assets/bg.jpg'
+import React from 'react'
 
-const About = styled.section`
-  width: 100vw;
-  height: 100vh;
-  background: url(${backGround}) no-repeat 20%;
-  background-size: cover;
-`
+import { AboutWrapper, AbouTitle } from './style'
+
+const About = () => (
+  <AboutWrapper>
+    <AbouTitle>Welcome to Hogwarts</AbouTitle>
+  </AboutWrapper>
+)
 
 export default About
