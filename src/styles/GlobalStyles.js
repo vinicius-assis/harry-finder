@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font: 14px 'Peddana', sans-serif;
+    font: 10px 'Peddana', sans-serif;
     color: #e6e6e6;
     -webkit-font-smoothing: antialiased !important;
     overflow: hidden;
