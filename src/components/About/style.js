@@ -13,3 +13,6 @@ export const AbouTitle = styled.h1`
   font-family: 'Robot', sans-serif;
   font-style: italic;
 `
+export const AboutParagraph = styled.p`
+  font-size: 1.4rem;
+`
