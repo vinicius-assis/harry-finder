@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import backGround from '../../assets/bg.jpg'
 
 export const AboutWrapper = styled.section`
   width: 100vw;
@@ -7,8 +6,6 @@ export const AboutWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(${backGround}) no-repeat 20%;
-  background-size: cover;
 `
 
 export const AbouTitle = styled.h1`

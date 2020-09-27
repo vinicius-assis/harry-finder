@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
+import backGround from '../assets/bg.jpg'
+
 
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Peddana&family=Roboto:ital,wght@1,700&display=swap');
@@ -19,6 +21,8 @@ const GlobalStyles = createGlobalStyle`
     color: #e6e6e6;
     -webkit-font-smoothing: antialiased !important;
     overflow: hidden;
+    background: url(${backGround}) no-repeat 20%;
+    background-size: cover;
   }
 
   ul {
