@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AboutWrapper, AbouTitle } from './style'
+import { AboutWrapper, AbouTitle, AboutParagraph } from './style'
 
 const About = () => (
   <AboutWrapper>
