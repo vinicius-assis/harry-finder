@@ -17,12 +17,13 @@ const GlobalStyles = createGlobalStyle`
   body {
     font: 14px 'Peddana', sans-serif;
     color: #e6e6e6;
+    background: #000;
     -webkit-font-smoothing: antialiased !important;
   }
 
   ul {
     list-style: none;
   }
-
-
 `
+
+export default GlobalStyles
