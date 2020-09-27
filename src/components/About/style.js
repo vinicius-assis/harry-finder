@@ -28,5 +28,5 @@ export const ParagraphWrapper = styled.div`
   height: auto;
   padding: 20px 80px;
   text-align: center;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
 `
