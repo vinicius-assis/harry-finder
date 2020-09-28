@@ -1,11 +1,12 @@
 import React from 'react'
 
 import IconMenu from '../IconMenu/index'
-import { NavBar, HarryLogo } from './style'
+import { NavBar } from './style'
+import { ReactComponent as Icon} from '../../assets/harry-big.svg'
 
 const Menu = () => (
   <NavBar>
-    <HarryLogo />
+    <Icon />
     <IconMenu />
   </NavBar>
 )
