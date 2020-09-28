@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     width: 100%;
     height: 8px;
     border-radius: 4px;
-    background: #fff;
+    background: #${({show}) => show ? '000' : 'fff'};
     position: absolute;
     ${({show}) => show ? 'left: 15%;' : 'left: 0;'}
     transition: all .5s linear;
@@ -35,11 +35,11 @@ export const Wrapper = styled.div`
 export const Middle = styled.span`
   content: '';
   width: 100%;
-  height: 8px;
   border-radius: 4px;
   background: #fff;
-  ${({show}) => show ? 'opacity: 0;' : 'opacity: 1;'}
   transition: opacity .5s linear;
-  
+  height: ${({show}) => show ? '110%' : '8px'};
+  // ${({show}) => show ? 'opacity: 0;' : 'opacity: 1;'}
+  transition: all .5s linear;
 `
 
