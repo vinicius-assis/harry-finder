@@ -9,6 +9,5 @@ export const NavBar = styled.nav`
   justify-content: space-between;
   align-items: center;
   z-index: 2;
-  background-color: ${({bg}) => bg ? '#000; ' : 'transparent'};
   transition: all .9s linear;
 `

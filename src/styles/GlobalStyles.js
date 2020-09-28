@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html, body, #root {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
   }
 
@@ -23,6 +23,7 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     background: #fff url(${backGround}) no-repeat 20%;
     background-size: cover;
+    position: relative;
   }
 
   ul {

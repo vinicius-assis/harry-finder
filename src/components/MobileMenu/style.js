@@ -4,7 +4,7 @@ export const ContentWrapper = styled.ul`
   width: 100%;
   height: 100vh;
   background: #000;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;
