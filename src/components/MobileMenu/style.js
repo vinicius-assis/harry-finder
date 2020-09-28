@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const ContentWrapper = styled.ul`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #000;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   display: flex;
@@ -12,7 +12,7 @@ export const ContentWrapper = styled.ul`
   align-items: center;
   flex-direction: column;
   ${({ active }) => active ? 'transform:translateX(0);' : 'transform: translateX(200%);'}
-  transition: transform .5s linear;
+  transition: transform .8s cubic-bezier(0.65, -0.17, 0.38, 1.54);
 `
 
 export const ContentItem = styled.li`

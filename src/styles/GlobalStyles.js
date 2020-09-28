@@ -13,15 +13,15 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html, body, #root {
-    height: 100%;
+    height: 100vh;
+    overflow: hidden;
   }
 
   body {
     font: 10px 'Peddana', sans-serif;
     color: #e6e6e6;
     -webkit-font-smoothing: antialiased !important;
-    overflow: hidden;
-    background: url(${backGround}) no-repeat 20%;
+    background: #fff url(${backGround}) no-repeat 20%;
     background-size: cover;
   }
 
