@@ -8,15 +8,23 @@ const MobileMenu = () => {
 
   return (
   <ContentWrapper active={active}>
+
     <ContentItem>
-      <a>Home</a>
+      <a href="#">Home</a>
     </ContentItem>
+    
     <ContentItem>
-      <a>Home</a>
+      <a href="#">Movies</a>
     </ContentItem>
+
     <ContentItem>
-      <a>Home</a>
+      <a href="#">Characters</a>
     </ContentItem>
+
+    <ContentItem>
+      <a href="#">Games</a>
+    </ContentItem>
+
   </ContentWrapper>
 
 )}
