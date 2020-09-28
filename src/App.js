@@ -7,6 +7,7 @@ import { GlobalStorage } from './context/GlobalContext/index'
 import About from './components/About/index'
 import Menu from './components/Menu';
 import MobileMenu from './components/MobileMenu';
+import Characters from './components/Characters';
 
 
 const App = () => 
@@ -14,7 +15,8 @@ const App = () =>
   <GlobalStyles />
   <Menu />
   <MobileMenu />
-  <About />
+  {/* <About /> */}
+  <Characters />
 </GlobalStorage>
 
 
