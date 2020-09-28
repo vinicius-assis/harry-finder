@@ -1,17 +1,18 @@
 import styled from 'styled-components'
 
 export const ContentWrapper = styled.ul`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: #000;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  display: none;
+  ${({ active }) => active ? 'transform:translateX(0);' : 'transform: translateX(200%);'}
+  transition: transform .5s linear;
 `
 
 export const ContentItem = styled.li`

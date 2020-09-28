@@ -1,6 +1,7 @@
 import React from 'react';
 // reset css
 import GlobalStyles from './styles/GlobalStyles'
+import { GlobalStorage } from './context/GlobalContext/index'
 
 //components
 import About from './components/About/index'
@@ -9,13 +10,12 @@ import MobileMenu from './components/MobileMenu';
 
 
 const App = () => 
-<>
+<GlobalStorage>
   <GlobalStyles />
   <Menu />
   <MobileMenu />
   <About />
-  <h1>Harry Finder!</h1>
-</>
+</GlobalStorage>
 
 
 export default App;

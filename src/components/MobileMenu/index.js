@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { GlobalContext } from '../../context/GlobalContext/index'
 
 import {ContentWrapper, ContentItem} from './style'
 
-const MobileMenu = () => (
-  <ContentWrapper>
+const MobileMenu = () => {
+  const {active} = useContext(GlobalContext)
+
+  return (
+  <ContentWrapper active={active}>
     <ContentItem>
       <a>Home</a>
     </ContentItem>
@@ -15,6 +19,6 @@ const MobileMenu = () => (
     </ContentItem>
   </ContentWrapper>
 
-)
+)}
 
 export default MobileMenu
