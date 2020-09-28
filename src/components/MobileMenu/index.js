@@ -10,19 +10,19 @@ const MobileMenu = () => {
   <ContentWrapper active={active}>
 
     <ContentItem>
-      <a href="#">Home</a>
+      <a href="#home">Home</a>
     </ContentItem>
     
     <ContentItem>
-      <a href="#">Movies</a>
+      <a href="#movies">Movies</a>
     </ContentItem>
 
     <ContentItem>
-      <a href="#">Characters</a>
+      <a href="#characters">Characters</a>
     </ContentItem>
 
     <ContentItem>
-      <a href="#">Games</a>
+      <a href="#games">Games</a>
     </ContentItem>
 
   </ContentWrapper>
