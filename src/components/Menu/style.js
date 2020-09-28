@@ -7,6 +7,7 @@ export const NavBar = styled.nav`
   padding: 20px 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `
 
 export const HarryLogo = styled.img.attrs({
