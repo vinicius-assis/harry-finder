@@ -1,30 +1,24 @@
 import React, { useContext } from 'react'
 import { GlobalContext } from '../../context/GlobalContext/index'
 
-import {ContentWrapper, ContentItem} from './style'
+import { ContentItem, ContentWrapper } from './style'
+import { Link } from 'react-router-dom'
 
-const MobileMenu = () => {
-  const {active} = useContext(GlobalContext)
+
+const MobileMenu = ({ children }) => {
+  const {active, handleClick } = useContext(GlobalContext)
 
   return (
   <ContentWrapper active={active}>
-
-    <ContentItem>
-      <a href="#home">Home</a>
+    <ContentItem onClick={handleClick}>
+      <Link to="/">Home</Link>
     </ContentItem>
-    
-    <ContentItem>
-      <a href="#movies">Movies</a>
+    <ContentItem onClick={handleClick}>
+      <Link to="/movies">Movies</Link>
     </ContentItem>
-
-    <ContentItem>
-      <a href="#characters">Characters</a>
+    <ContentItem onClick={handleClick}>
+      <Link to="/characters">Characters</Link>
     </ContentItem>
-
-    <ContentItem>
-      <a href="#games">Games</a>
-    </ContentItem>
-
   </ContentWrapper>
 
 )}

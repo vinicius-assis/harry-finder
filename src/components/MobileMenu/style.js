@@ -11,6 +11,7 @@ export const ContentWrapper = styled.ul`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 1;
   ${({ active }) => active ? 'transform:translateX(0);' : 'transform: translateX(200%);'}
   transition: transform .8s cubic-bezier(0.65, -0.17, 0.38, 1.54);
 `

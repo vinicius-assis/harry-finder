@@ -10,4 +10,5 @@ export const NavBar = styled.nav`
   align-items: center;
   z-index: 2;
   transition: all .9s linear;
+  z-index: 2;
 `
