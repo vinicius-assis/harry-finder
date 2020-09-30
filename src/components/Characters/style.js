@@ -12,7 +12,7 @@ export const SearchField = styled.input.attrs({
   placeholder: 'Character name'
 })`
   width: 60%;
-  height: 70px;
+  height: 100px;
   font-weight: bold;
   font-size: 1.8rem;
   text-align: center;
@@ -24,10 +24,11 @@ export const SearchField = styled.input.attrs({
 `
 
 export const SearchButton = styled.button`
-  width: 54px;
-  height: 70px;
+  width: 80px;
+  height: 100px;
   border: solid 1px #707070;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: rgba(255, 255, 255, 0.83);
+  cursor: pointer;
 ` 
