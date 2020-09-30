@@ -2,21 +2,21 @@ import React from 'react'
 
 import movies from '../../utils/movies'
 
-import { Title, Wrapper, Cards, CardImg, CardBody } from '../Card/style'
+import { Title, MoviesWrapper, MoviesCards, CardImg, CardBody } from './style'
 
 const Movies = () => (
-  <Wrapper>
+  <MoviesWrapper>
     <Title>Movies</Title>
     {movies.map(item => (
-      <Cards>
+      <MoviesCards>
         <CardImg url={item.imgLocal} alt={`Capa do filme ${item.name.toLowerCase()}`}/>
         <CardBody>
           <li><strong>{item.name}</strong></li>
           <li>{item.ano}</li>
         </CardBody>
-      </Cards>
+      </MoviesCards>
     ))}
-  </Wrapper>
+  </MoviesWrapper>
 )
 
 export default Movies

@@ -8,7 +8,7 @@ export const Title = styled.h1`
   margin-bottom: 100px;
 `
 
-export const MoviesWrapper = styled.section`
+export const Wrapper = styled.section`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@ export const MoviesWrapper = styled.section`
   flex-wrap: wrap;
 `
 
-export const MoviesCards = styled.div`
+export const Cards = styled.div`
   width: auto;
   border-radius: 8px;
   background-color: #fff;
